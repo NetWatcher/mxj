@@ -1,3 +1,4 @@
+// +build ignore
 // Preserve list order with intermixed sub-elements.
 // from: https://groups.google.com/forum/#!topic/golang-nuts/8KvlKsdh84k
 

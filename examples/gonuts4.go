@@ -1,3 +1,4 @@
+// +build ignore
 // https://groups.google.com/forum/#!topic/golang-nuts/-N9Toa6qlu8
 // shows that you can extract attribute values directly from tag/key path.
 // NOTE: attribute values are encoded by prepending a hyphen, '-'.

@@ -1,3 +1,4 @@
+// +build ignore
 // Per: https://github.com/clbanning/mxj/issues/24
 // Per: https://github.com/clbanning/mxj/issues/25
 

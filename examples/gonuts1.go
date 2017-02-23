@@ -1,3 +1,4 @@
+// +build ignore
 // https://groups.google.com/forum/#!searchin/golang-nuts/idnet$20netid/golang-nuts/guM3ZHHqSF0/K1pBpMqQSSwJ
 // http://play.golang.org/p/BFFDxphKYK
 

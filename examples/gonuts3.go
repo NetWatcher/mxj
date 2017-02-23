@@ -1,3 +1,4 @@
+// +build ignore
 // https://groups.google.com/forum/#!topic/golang-nuts/cok6xasvI3w
 // retrieve 'src' values from 'image' tags
 

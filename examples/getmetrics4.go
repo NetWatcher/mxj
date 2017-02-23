@@ -1,3 +1,4 @@
+// +build ignore
 // getmetrics2.go - transform Eclipse Metrics (v3) XML report into CSV files for each metric
 // Uses an in-memory buffer for the XML data and direct XML decoding of the buffer into a Map.
 // Then XML buffer is decoded into a Map while the raw XML is copied using NewMapXmlReaderRaw()

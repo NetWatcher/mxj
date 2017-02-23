@@ -1,3 +1,4 @@
+// +build ignore
 /* gonuts10.go - https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/tf4aDQ1Hn_c
 change:
 <author>

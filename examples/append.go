@@ -1,4 +1,5 @@
 // Per https://github.com/clbanning/mxj/issues/34
+// +build ignore
 
 package main
 

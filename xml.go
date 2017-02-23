@@ -876,15 +876,18 @@ func mapToXmlIndent(doIndent bool, s *string, key string, value interface{}, pp 
 			isSimple = true
 			break
 		} else if ok {
+			elen = 1
+			*s += ">" + fmt.Sprintf("%v", v)
 			// Handle edge case where simple element with attributes
 			// is unmarshal'd using NewMapXml() where attribute prefix
 			// has been set to "".
 			// TODO(clb): should probably scan all keys for invalid chars.
-			return fmt.Errorf("invalid attribute key label: #text - due to attributes not being prefixed")
-		}
+			//return fmt.Errorf("invalid attribute key label: #text - due to attributes not being prefixed")
+		} else {
+            // close tag with possible attributes
+            *s += ">"
+        }
 
-		// close tag with possible attributes
-		*s += ">"
 		if doIndent {
 			*s += "\n"
 		}
@@ -894,7 +897,7 @@ func mapToXmlIndent(doIndent bool, s *string, key string, value interface{}, pp 
 		elemlist := make([][2]interface{}, len(vv))
 		n = 0
 		for k, v := range vv {
-			if lenAttrPrefix > 0 && lenAttrPrefix < len(k) && k[:lenAttrPrefix] == attrPrefix {
+			if (lenAttrPrefix > 0 && lenAttrPrefix < len(k) && k[:lenAttrPrefix] == attrPrefix) || k == "#text" {
 				continue
 			}
 			elemlist[n][0] = k

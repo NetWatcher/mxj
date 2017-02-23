@@ -1,5 +1,5 @@
 // Note: this illustrates ValuesForKey() and ValuesForPath() methods
-
+// +build ignore
 package main
 
 import (

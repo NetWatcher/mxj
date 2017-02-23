@@ -1,3 +1,4 @@
+// +build ignore
 // getmetrics1.go - transform Eclipse Metrics (v3) XML report into CSV files for each metric
 // Uses NewMapXmlReader on os.File without copying the raw XML into a buffer while decoding..
 // Shows no significant overhead for not first buffering large XML file as in getmetrics2.go.

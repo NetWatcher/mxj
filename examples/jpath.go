@@ -1,3 +1,4 @@
+// +build ignore
 // gitissue #28
 
 /*

@@ -1,3 +1,4 @@
+// +build ignore
 /* gonuts10seqB.go - https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/tf4aDQ1Hn_c
 
 Objective:  assign Comment.CommentText attribute value to Request.ReportingName attribute that immediately follows Comment.

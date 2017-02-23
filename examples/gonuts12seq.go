@@ -1,3 +1,4 @@
+// +build ignore
 /* gonuts10seqB.go - https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/tf4aDQ1Hn_c
 
 Objective:  to quote from email

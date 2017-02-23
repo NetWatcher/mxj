@@ -1,3 +1,4 @@
+// +build ignore
 // gonuts5.go - from https://groups.google.com/forum/#!topic/golang-nuts/MWoYY19of3o
 // problem is to extract entries from <lst name="list3-1-1-1"></lst> by "int name="
 

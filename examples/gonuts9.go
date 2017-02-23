@@ -1,3 +1,4 @@
+// +build ignore
 // https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/2A6_YRYXCjA
 
 package main
